@@ -78,7 +78,7 @@ WSGI_APPLICATION = "cookbook.wsgi.application"
 
 DATABASES = {
     "default": django_mongodb_backend.parse_uri(
-        "mongodb+srv://22951a62b3:wohbrCvx0lMZkQ3V@cluster0.2wvlaxj.mongodb.net/cookbook"
+        "
     ),
 }
 
