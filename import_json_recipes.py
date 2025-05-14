@@ -8,7 +8,7 @@ load_dotenv()
 
 # Get MongoDB connection URI and database name from environment variables
 # Falls back to default values if not set
-MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://22951a62b3:wohbrCvx0lMZkQ3V@cluster0.2wvlaxj.mongodb.net/")
+MONGO_URI = os.getenv("MONGO_URI", ")
 MONGO_DB = os.getenv("MONGO_DB", "cookbook")
 
 
