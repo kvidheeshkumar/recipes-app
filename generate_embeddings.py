@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 load_dotenv()
 
-MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017/?directConnection=true")
+MONGO_URI = os.getenv("MONGO_URI", ")
 MONGO_DB = os.getenv("MONGO_DB", "cookbook")
 
 
@@ -23,7 +23,7 @@ try:
     # This automatically uses the VOYAGE_API_KEY environment variable
     import voyageai
     
-    voyageai.api_key = "pa-IRmhT5Iz9akoYg9dbqKeTJpcpp7DJ7A3dpzgCTZL3ei"
+    voyageai.api_key = "
 
     vo = voyageai.Client()
 
